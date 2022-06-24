@@ -14,7 +14,7 @@ brew install --cask font-hack-nerd-font
 mv ~/.vim ~/.vim.bak
 mv ~/.vimrc ~/.vimrc.bak
 
-git clone git://github.com/AlexeyKrasnoperov/vim_config.git ~/.vim
+git clone https://github.com/AlexeyKrasnoperov/vim_config.git ~/.vim
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 ln -s ~/.vim/vimrc ~/.vimrc
